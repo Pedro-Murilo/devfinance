@@ -1,7 +1,9 @@
-import { HeaderLogo } from './HeaderStyles';
+import { HeaderContainer } from './HeaderStyles';
 
 const Header = () => (
-    <HeaderLogo>dev.finance$</HeaderLogo>
+    <HeaderContainer>
+        <h1>dev.finance$</h1>
+    </HeaderContainer>
 )
 
 export default Header;

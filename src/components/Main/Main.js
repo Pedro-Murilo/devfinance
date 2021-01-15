@@ -1,27 +1,15 @@
+import { TitleH2 } from "../Balance/BalanceStyles";
 import Header  from "../Header/Header";
+import { MainContainer } from './MainStyles'
+import BalanceSection from '../Balance/Balance';
 
 const Main = () => (
-  <div>
+  <>
     <Header />
-    <main className="container">
-      <section className="balance">
-        <h2>Balance</h2>
-        <div className="card">
-          <h3>Entry</h3>
-          <p>R$ 5.000,00</p>
-        </div>
-        <div className="card">
-          <h3>Exit</h3>
-          <p>R$ 2.000,00</p>
-        </div>
-        <div className="card total">
-          <h3>Total</h3>
-          <p>R$ 3.000,00</p>
-        </div>
-      </section>
-
+    <MainContainer>
+      <BalanceSection />
       <section className="transaction">
-        <h2>Transactions</h2>
+        <TitleH2>Transactions</TitleH2>
 
         <table>
           <thead>
@@ -50,8 +38,8 @@ const Main = () => (
           </tbody>
         </table>
       </section>
-    </main>
-  </div>
+    </MainContainer>
+  </>
 );
 
 export default Main;

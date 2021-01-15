@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 
 const h3Styles = css`
-    font-size: 1rem;
+    font-size: 1.7rem;
     font-weight: normal;
 `
 
@@ -14,10 +14,10 @@ const pStyles = css`
 export const CardContainer = styled.div`
     background: #fff;
     padding: 1.5rem 2rem;
-    border-radius: .25rem;
+    border-radius: .7rem;
     margin-bottom: 2rem;
 
-    color: #22e73c;
+    color: #777;
 
     h3 {
         ${h3Styles}

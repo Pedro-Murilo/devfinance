@@ -14,4 +14,5 @@ export const TitleH2 = styled.h2`
     margin-bottom: 0.8rem;
     color: #22e73c;
     font-weight: normal;
+    font-size: 2.5rem;
 `

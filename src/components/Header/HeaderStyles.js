@@ -7,7 +7,7 @@ import styled from "styled-components";
   
   h1 {
     font-weight: 100;
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: #fff;
   }
 `;

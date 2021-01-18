@@ -7,7 +7,7 @@ const Card = () => (
       <p>R$ 5.000,00</p>
     </CardContainer>
     <CardContainer>
-      <h3>Exit</h3>
+      <h3>Spend</h3>
       <p>R$ 2.000,00</p>
     </CardContainer>
     <CardContainer className="total">

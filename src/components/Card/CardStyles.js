@@ -12,12 +12,12 @@ const pStyles = css`
 `
 
 export const CardContainer = styled.div`
-    background: #fff;
+    background: #2c2c2c;
     padding: 1.5rem 2rem;
     border-radius: .7rem;
     margin-bottom: 2rem;
 
-    color: #777;
+    color: #b8b8b8;
 
     h3 {
         ${h3Styles}

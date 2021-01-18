@@ -8,7 +8,7 @@ export const FooterContainer = styled.footer`
     font-size: 2rem;
 
     p:first-child {
-        font-weight: 200;
+        font-weight: 100;
         color: #fff;
     }
 `

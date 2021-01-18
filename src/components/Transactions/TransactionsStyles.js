@@ -16,36 +16,36 @@ export const DataTable = styled.table`
   }
 
   th {
-    background: #fafafa;
+    background: #9b9b9b;
     font-weight: normal;
     padding: 1rem 2rem;
     text-align: center;
   }
 
   tr {
-    opacity: 1;
+    opacity: 0.75;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 
     &:hover {
-      opacity: 0.75;
+      opacity: 1;
     }
 
     td.description {
-      color: #0c9e13;
+      color: #80da4d;
     }
 
     td.income {
-      color: #12a454;
+      color: #67e220;
     }
 
     td.expense {
-      color: #e92929;
+      color: #f88080;
     }
     td {
-      background: #fff;
+      background: #6d6d6d;
       padding: 1rem 2rem;
-      font-weight: normal;
+      font-weight: 400;
     }
   }
 `;

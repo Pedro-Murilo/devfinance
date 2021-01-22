@@ -1,21 +1,28 @@
-import { ModalStyles, ModalWrapper } from './ModalStyles';
+import { ModalStyles, ModalWrapper } from "./ModalStyles";
+import { ScreenOnly } from '../Balance/BalanceStyles';
 
 const Modal = () => {
-    return (
-        <ModalStyles isActive>
-            <ModalWrapper>
-                <div className="form">
-                    <h2>Nova Transação</h2>
-                    <form action="">
-                        <div className="input-group">
-                            <label htmlFor="description"></label>
-                            <input type="text" id="description" name="description" />
-                        </div>
-                    </form>
-                </div>
-            </ModalWrapper>
-        </ModalStyles>
-    )
-}
+  return (
+    <ModalStyles isActive>
+      <ModalWrapper>
+        <div className="form">
+          <ScreenOnly>Nova Transação</ScreenOnly>
+
+          <form action="">
+            <div className="input-group">
+              <label htmlFor="description">Description</label>
+              <input type="text" id="description" name="description" placeholder="Description" />
+            </div>
+            <div className="input-group">
+              <label htmlFor="amount">Amount</label>
+              <input type="number" id="amount" name="amount" placeholder="0,00" />
+              <small>Use - (negative) for spend and , () to float</small>
+            </div>
+          </form>
+        </div>
+      </ModalWrapper>
+    </ModalStyles>
+  );
+};
 
 export default Modal;

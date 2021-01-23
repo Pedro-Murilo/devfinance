@@ -45,7 +45,7 @@ export const DataTable = styled.table`
     }
     td {
       background: #6d6d6d;
-      padding: .4rem .4rem;
+      padding: 0.4rem 0.4rem;
       font-weight: 400;
 
       img {
@@ -56,15 +56,17 @@ export const DataTable = styled.table`
 `;
 
 export const LinkStyle = styled.a`
+  display: inline-block;
+  margin-bottom: 0.8rem;
   font-size: 1.4rem;
   color: #80da4d;
   text-shadow: 0 0 2px #80da4d, 0 0 2px #80da4d, 0 0 1px #80da4d,
     0 0 1px #80da4d;
-  transition: .2s;
+  transition: 0.2s;
 
-    &:hover {
-      color: #67e220;
-      text-shadow: 0 0 2px #67e220, 0 0 2px #67e220, 0 0 1px #67e220,
-    0 0 1px #67e220;
-    }
+  &:hover {
+    color: #67e220;
+    text-shadow: 0 0 2px #67e220, 0 0 2px #67e220, 0 0 1px #67e220,
+      0 0 1px #67e220;
+  }
 `;

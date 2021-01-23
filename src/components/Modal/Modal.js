@@ -1,26 +1,36 @@
-import { ModalStyles, ModalWrapper } from "./ModalStyles";
+import { ModalStyles, ModalContainer, ScreenOnlyLabel, InputContainer, ButtonStyles, FormContainer } from "./ModalStyles";
 import { ScreenOnly } from '../Balance/BalanceStyles';
 
 const Modal = () => {
   return (
-    <ModalStyles isActive={false}>
-      <ModalWrapper>
-        <div className="form">
+    <ModalStyles isActive>
+      <ModalContainer>
+        <FormContainer>
           <ScreenOnly>Nova Transação</ScreenOnly>
 
           <form action="">
-            <div className="input-group">
-              <label htmlFor="description">Description</label>
+            <InputContainer>
+              <ScreenOnlyLabel htmlFor="description">Description</ScreenOnlyLabel>
               <input type="text" id="description" name="description" placeholder="Description" />
-            </div>
-            <div className="input-group">
-              <label htmlFor="amount">Amount</label>
+            </InputContainer>
+            <InputContainer>
+              <ScreenOnlyLabel htmlFor="amount">Amount</ScreenOnlyLabel>
               <input type="number" id="amount" name="amount" placeholder="0,00" />
-              <small>Use - (negative) for spend and , () to float</small>
-            </div>
+              <small>Use - (negative) for spend and , (comma) to decimal number</small>
+            </InputContainer>
+
+            <InputContainer>
+              <ScreenOnlyLabel for="date">Data</ScreenOnlyLabel>
+              <input type="date" id="date" name="date" />
+            </InputContainer>
+
+            <InputContainer className="actions">
+              <a href="/">Cancel</a>
+              <ButtonStyles>Save</ButtonStyles>
+            </InputContainer>
           </form>
-        </div>
-      </ModalWrapper>
+        </FormContainer>
+      </ModalContainer>
     </ModalStyles>
   );
 };

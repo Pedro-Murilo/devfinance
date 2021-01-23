@@ -18,6 +18,7 @@ export const TitleH2 = styled.h2`
   margin-bottom: 0.8rem;
   font-weight: normal;
   font-size: 2.5rem;
+  padding-bottom: 1.5rem;
 
   ${({ isActive }) =>
     !isActive &&

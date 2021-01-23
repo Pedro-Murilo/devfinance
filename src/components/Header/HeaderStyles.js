@@ -1,7 +1,6 @@
 import styled, { css } from "styled-components";
 
-const ColorNeon = "#f8da2e";
-const ColorNeonSecondary = "#f8da2e";
+import { ColorNeon, ColorNeonSecondary } from '../Balance/BalanceStyles';
 
 export const HeaderContainer = styled.header`
   text-align: center;

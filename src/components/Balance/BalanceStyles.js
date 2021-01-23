@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 
-const ColorNeon = "#f8da2e";
-const ColorNeonSecondary = "#f8da2e";
+export const ColorNeon = "#f8da2e";
+export const ColorNeonSecondary = "#f8da2e";
 
 export const BalanceContainer = styled.section`
   margin-top: -8rem;
@@ -9,6 +9,7 @@ export const BalanceContainer = styled.section`
   h2 {
     color: #fff;
     margin-top: 0;
+    text-shadow: 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff;
   }
 `;
 
@@ -22,8 +23,8 @@ export const TitleH2 = styled.h2`
     !isActive &&
     css`
       color: ${ColorNeon};
-      text-shadow: 0 0 5px ${ColorNeon}, 0 0 5px ${ColorNeon},
-        0 0 10px ${ColorNeon}, 0 0 5px ${ColorNeonSecondary};
+      text-shadow: 0 0 3px ${ColorNeon}, 0 0 3px ${ColorNeon},
+        0 0 3px ${ColorNeon}, 0 0 3px ${ColorNeonSecondary};
     `}
 `;
 

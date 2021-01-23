@@ -19,15 +19,16 @@ export const ModalStyles = styled.div`
     `}
 
   a {
-    color: #e73023;
+    color: #252525;
     border: 2px #e73023 solid;
     border-radius: 0.25rem;
-
+    font-size: 1.2rem;
     height: 50px;
 
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: linear-gradient(to right, #e71313, #e44646);
 
     opacity: 0.6;
     transition: 0.2s;
@@ -35,7 +36,7 @@ export const ModalStyles = styled.div`
 
     &:hover {
       opacity: 1;
-      color: #e44646;
+      color: #252525;
       box-shadow: 0 0 2px #e44646, 0 0 2px #e44646, 0 0 1px #e44646,
         0 0 1px #e44646;
     }
@@ -65,11 +66,11 @@ export const ScreenOnlyLabel = styled.label`
 export const ButtonStyles = styled.button`
   width: 100%;
   height: 50px;
-
+  font-size: 1.2rem;
   border: none;
 
   color: #252525;
-  background: #80da4d;
+  background-image: linear-gradient(to right, #b3eb1b, #def320);
 
   padding: 0;
   border-radius: 0.25rem;

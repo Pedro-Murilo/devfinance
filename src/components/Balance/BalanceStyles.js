@@ -13,8 +13,6 @@ export const BalanceContainer = styled.section`
   }
 `;
 
-
-
 export const TitleH2 = styled.h2`
   margin-top: 3.2rem;
   margin-bottom: 0.5rem;

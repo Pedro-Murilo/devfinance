@@ -21,7 +21,10 @@ export const CardContainer = styled.div`
   box-shadow: 1px 1px 10px 3px rgb(0, 0, 0, 0.5);
 
   h3 {
-    ${h3Styles}
+    ${h3Styles};
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
   p {

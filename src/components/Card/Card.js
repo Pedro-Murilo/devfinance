@@ -1,17 +1,29 @@
-import { CardContainer } from './CardStyles';
+import { CardContainer } from "./CardStyles";
+import incomeSvg from "../../assets/income.svg";
+import expenseSvg from "../../assets/expense.svg";
+import totalSvg from "../../assets/total.svg";
 
 const Card = () => (
   <>
     <CardContainer>
-      <h3>Entry</h3>
+      <h3>
+        <span>Income</span>
+        <img src={incomeSvg} alt="Income logo" />
+      </h3>
       <p>R$ 5.000,00</p>
     </CardContainer>
     <CardContainer>
-      <h3>Spend</h3>
+      <h3>
+        <span>Expense</span>
+        <img src={expenseSvg} alt="Expense logo" />
+      </h3>
       <p>R$ 2.000,00</p>
     </CardContainer>
     <CardContainer className="total">
-      <h3>Total</h3>
+      <h3>
+        <span>Total</span>
+        <img src={totalSvg} alt="Total logo" />
+      </h3>
       <p>R$ 3.000,00</p>
     </CardContainer>
   </>

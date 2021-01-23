@@ -1,5 +1,5 @@
 html {
-  font-size: 62.5%;
+  font-size: 93.75%;
 }
 
 * {
@@ -15,4 +15,15 @@ body {
 
 a {
   text-decoration: none;
+}
+
+@media (min-width: 800px) {
+  html {
+    font-size: 87.5%;
+  }
+  #balance {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
 }

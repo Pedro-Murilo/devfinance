@@ -4,6 +4,7 @@ export const DataTable = styled.table`
   width: 100%;
   border-spacing: 0 0.5rem;
   color: #333;
+  margin-top: 1.5rem;
 
   th:first-child,
   td:first-child {
@@ -18,14 +19,14 @@ export const DataTable = styled.table`
   th {
     background: #9b9b9b;
     font-weight: normal;
-    padding: 1rem 2rem;
+    padding: 0.5rem 0.5rem;
     text-align: center;
   }
 
   tr {
     opacity: 0.75;
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
 
     &:hover {
       opacity: 1;
@@ -44,7 +45,7 @@ export const DataTable = styled.table`
     }
     td {
       background: #6d6d6d;
-      padding: 1rem 2rem;
+      padding: .4rem .4rem;
       font-weight: 400;
 
       img {
@@ -55,7 +56,7 @@ export const DataTable = styled.table`
 `;
 
 export const LinkStyle = styled.a`
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   color: #80da4d;
   text-shadow: 0 0 2px #80da4d, 0 0 2px #80da4d, 0 0 1px #80da4d,
     0 0 1px #80da4d;

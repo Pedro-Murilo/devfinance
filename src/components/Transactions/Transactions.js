@@ -1,11 +1,11 @@
 import { DataTable, LinkStyle } from "./TransactionsStyles";
-import { TitleH2 } from '../Balance/BalanceStyles';
+import { ScreenOnly } from '../Balance/BalanceStyles';
 
 import minusSvg from '../../assets/minus.svg';
 
 const TransactionSection = () => (
   <section className="transaction">
-    <TitleH2>Transactions</TitleH2>
+    <ScreenOnly>Transactions</ScreenOnly>
     <LinkStyle href="/">+ New Transaction</LinkStyle>
 
     <DataTable>

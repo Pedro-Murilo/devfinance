@@ -13,12 +13,13 @@ export const BalanceContainer = styled.section`
   }
 `;
 
+
+
 export const TitleH2 = styled.h2`
   margin-top: 3.2rem;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.5rem;
   font-weight: normal;
-  font-size: 2.5rem;
-  padding-bottom: 1.5rem;
+  font-size: 2rem;
 
   ${({ isActive }) =>
     !isActive &&

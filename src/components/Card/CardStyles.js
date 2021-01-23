@@ -28,7 +28,7 @@ export const CardContainer = styled.div`
     }
 
     &.total {
-        background: #49aa26;
-        color: #fff;
+        background-image: linear-gradient(to right, #f8da2e, #cf9c0e);
+        color: #252525;
     }
 `

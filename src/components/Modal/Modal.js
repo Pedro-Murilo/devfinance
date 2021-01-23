@@ -3,7 +3,7 @@ import { ScreenOnly } from '../Balance/BalanceStyles';
 
 const Modal = () => {
   return (
-    <ModalStyles isActive>
+    <ModalStyles isActive={false}>
       <ModalWrapper>
         <div className="form">
           <ScreenOnly>Nova Transação</ScreenOnly>

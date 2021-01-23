@@ -20,7 +20,7 @@ const Modal = () => {
             </InputContainer>
 
             <InputContainer>
-              <ScreenOnlyLabel for="date">Data</ScreenOnlyLabel>
+              <ScreenOnlyLabel htmlFor="date">Data</ScreenOnlyLabel>
               <input type="date" id="date" name="date" />
             </InputContainer>
 

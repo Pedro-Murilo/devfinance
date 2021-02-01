@@ -7,9 +7,12 @@ This application was built in the Rocketseat event, and this project consists of
 but I wanted to take it to the next level and I used this project to apply my knowledge in ReactJS!
 
 ---
-### 🚀 Tecnologies and Tools:
+### 🚀 Technologies
 <a href="https://reactjs.org/">
   <img alt="React" src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
+</a>
+<a href="https://code.visualstudio.com/">
+   <img alt="Visual Studio Code" src="https://img.shields.io/badge/-Visual_Studio_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
 </a>
 <a href="https://yarnpkg.com/">
   <img alt="Yarn" src="https://img.shields.io/badge/yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white" />

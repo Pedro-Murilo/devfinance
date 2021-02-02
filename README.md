@@ -21,6 +21,18 @@
 </p>
 
 ---
+<div align="center">
+  <h2>Follow the Road</h2> 
+  <a href="#-about">About</a> |
+  <a href="#-technologies">Technologies</a> |
+  <a href="#-how-to-run-this-project">How to run this project</a> |
+  <a href="#-contributing">Contributing</a> |
+  <a href="#-license">License</a> |
+  <a href="#-credits">Credits</a>
+</div>
+
+
+---
 ## 📋 About
 This application was built in the Rocketseat event, and this project consists of you managing your finances. In the event was used Javascript, HTML and CSS, 
 but I wanted to take it to the next level and I used this project to apply my knowledge in ReactJS!
@@ -52,6 +64,22 @@ but I wanted to take it to the next level and I used this project to apply my kn
 > Step 3: after install all dependencies, type ```yarn start``` and this will open on ```localhost:3000```
 
 > ElectronJS: you can run the desktop version by typing ```yarn run electron-dev```, after this, the app will open in the desktop version, and you can see it in browser on ```localhost:3000``` also
+
+---
+### 🌱 Contributing
+> <strong>Step 1:</strong> `fork` this repository
+
+> <strong>Step 2:</strong> Add a new branch with your new feature: `git checkout -b my-feature`
+
+> <strong>Step 3:</strong> Commit your new features: `git commit -m "feat: my new feature"`
+
+> <strong>Step 4:</strong> Push to your branch: `git push origin your-branch`
+
+> <strong>Final:</strong> After merge your pull request, you can delete your branch
+
+---
+### 📄 License
+This project is under MIT license. See the [LICENSE](https://github.com/Pedro-Murilo/supernatural-quiz/blob/main/LICENSE) file for more details.
 
 ---
 ### 💜 Credits

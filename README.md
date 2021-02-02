@@ -1,9 +1,9 @@
 <h1 align="center"><strong>dev💲finance</strong></h1> 
-<p align="center"><strong>An application made to manage your finance!</strong></p>
+<h2 align="center"><strong>An application made to manage your finance!</strong></h2>
 
 
 ---
-<p align="center" width="300">
+<p align="center">
 
 <a href="https://reactjs.org/">
   <img alt="Made with ReactJS" src="https://img.shields.io/badge/Made_with-React.js-000?style=for-the-badge&logo=react" />
@@ -24,7 +24,7 @@
 <div align="center">
   <h2>Follow the Road</h2> 
   <a href="#-about">About</a> |
-  <a href="#-technologies">Technologies</a> |
+  <a href="#-technologies-and-tools">Technologies and Tools</a> |
   <a href="#-how-to-run-this-project">How to run this project</a> |
   <a href="#-contributing">Contributing</a> |
   <a href="#-license">License</a> |

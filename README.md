@@ -1,5 +1,24 @@
-<h1 align="center"><strong>💲 devfinance</strong></h1> 
+<h1 align="center"><strong>dev💲finance</strong></h1> 
 <p align="center"><strong>An application made to manage your finance!</strong></p>
+
+
+---
+<p align="center" width="300">
+
+<a href="https://reactjs.org/">
+  <img alt="Made with ReactJS" src="https://img.shields.io/badge/Made_with-React.js-000?style=for-the-badge&logo=react" />
+</a>
+
+  <img alt="Repo Size" src="https://img.shields.io/github/repo-size/pedro-murilo/devfinance?color=000&style=for-the-badge">
+  
+  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/pedro-murilo/devfinance?color=000&style=for-the-badge">
+  
+  <img alt="License" src="https://img.shields.io/github/license/pedro-murilo/devfinance?color=000&style=for-the-badge"/>
+  
+  <a href="https://github.com/Pedro-Murilo/">
+    <img alt="Developed by Pedro" src="https://img.shields.io/badge/Dev-Pedro-%3498db?color=000&style=for-the-badge">
+  </a>
+</p>
 
 ---
 ## 📋 About
@@ -16,6 +35,9 @@ but I wanted to take it to the next level and I used this project to apply my kn
 </a>
 <a href="https://yarnpkg.com/">
   <img alt="Yarn" src="https://img.shields.io/badge/yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white" />
+</a>
+<a href="https://www.electronjs.org/">
+  <img alt="ElectronJS" src="https://img.shields.io/badge/electron.js-%2343853D.svg?&style=for-the-badge&logo=electron&logoColor=white&color=47848F" />
 </a>
 <a href="https://styled-components.com/">
    <img alt="Styled Components" src="https://img.shields.io/badge/-Styled_Components-db7092?style=for-the-badge&logo=styled-components&logoColor=000" />

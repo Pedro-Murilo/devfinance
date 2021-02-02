@@ -1,5 +1,5 @@
-# 💲 devfinance 
-An application made to manage your finance!
+<h1 align="center"><strong>💲 devfinance</strong></h1> 
+<p align="center"><strong>An application made to manage your finance!</strong></p>
 
 ---
 ## 📋 About

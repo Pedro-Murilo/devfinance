@@ -63,7 +63,6 @@ but I wanted to take it to the next level and I used this project to apply my kn
 
 > Step 3: after install all dependencies, type ```yarn start``` and this will open on ```localhost:3000```
 
-> ElectronJS: you can run the desktop version by typing ```yarn run electron-dev```, after this, the app will open in the desktop version, and you can see it in browser on ```localhost:3000``` also
 
 ---
 ### 🌱 Contributing

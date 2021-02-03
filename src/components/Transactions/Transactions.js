@@ -4,7 +4,7 @@ import { ScreenOnly } from "../Balance/BalanceStyles";
 import minusSvg from "../../assets/minus.svg";
 
 const TransactionSection = () => {
-  
+
   return (
     <section className="transaction">
       <ScreenOnly>Transactions</ScreenOnly>

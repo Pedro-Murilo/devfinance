@@ -5,6 +5,7 @@ import { ColorNeon, ColorNeonSecondary } from '../Balance/BalanceStyles';
 export const FooterContainer = styled.footer`
     text-align: center;
     padding: 7rem 0 2rem;
+    background-color: #252525; 
     color: #000;
     opacity: 0.6;
     font-size: 1.4rem;

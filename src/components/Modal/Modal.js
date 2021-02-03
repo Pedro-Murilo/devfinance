@@ -4,6 +4,7 @@ import { ScreenOnly } from '../Balance/BalanceStyles';
 const Modal = () => {
 
   return (
+    <div>
     <ModalStyles isActive>
       <ModalContainer>
         <FormContainer>
@@ -33,6 +34,7 @@ const Modal = () => {
         </FormContainer>
       </ModalContainer>
     </ModalStyles>
+    </div>
   );
 };
 

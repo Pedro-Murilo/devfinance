@@ -1,13 +1,13 @@
-import React from 'react';
-import { NewTransaction, ModalStyles, ModalContainer, ScreenOnlyLabel, InputContainer, ButtonStyles, FormContainer } from "./ModalStyles";
+import {  ModalStyles, ModalContainer, ScreenOnlyLabel, InputContainer, ButtonStyles, FormContainer } from "./ModalStyles";
+import { ScreenOnly } from '../Balance/BalanceStyles'; 
 
 const Modal = () => {
 
   return (
-    <ModalStyles isActive={false}>
+    <ModalStyles isActive>
       <ModalContainer>
         <FormContainer>
-          <NewTransaction>New Transaction</NewTransaction>
+          <ScreenOnly>New Transaction</ScreenOnly>
 
           <form action="">
             <InputContainer>

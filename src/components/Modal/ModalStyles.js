@@ -43,6 +43,7 @@ export const ModalStyles = styled.div`
   }
 `;
 
+
 export const ModalContainer = styled.div`
   background-color: #222;
   padding: 2.4rem;
@@ -76,8 +77,11 @@ export const ButtonStyles = styled.button`
   border-radius: 0.25rem;
   cursor: pointer;
   width: 48%;
+  opacity: 0.6;
+  transition: 0.2s;
 
   &:hover {
+    opacity: 1;
     background: #67e220;
     box-shadow: 0 0 2px #67e220, 0 0 2px #67e220, 0 0 1px #67e220,
       0 0 1px #67e220;

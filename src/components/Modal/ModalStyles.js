@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
 
-export const ModalStyles = styled.div`
+export const ModalLayout = styled.div`
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
@@ -17,9 +17,10 @@ export const ModalStyles = styled.div`
       opacity: 0;
       visibility: hidden;
     `}
+`;
 
-  a {
-    color: #252525;
+export const CancelButton = styled.button`
+  color: #252525;
     border: 2px #e73023 solid;
     border-radius: 0.25rem;
     font-size: 1.2rem;
@@ -33,6 +34,7 @@ export const ModalStyles = styled.div`
     opacity: 0.6;
     transition: 0.2s;
     width: 48%;
+    cursor: pointer;
 
     &:hover {
       opacity: 1;
@@ -40,9 +42,7 @@ export const ModalStyles = styled.div`
       box-shadow: 0 0 2px #e44646, 0 0 2px #e44646, 0 0 1px #e44646,
         0 0 1px #e44646;
     }
-  }
-`;
-
+`
 
 export const ModalContainer = styled.div`
   background-color: #222;

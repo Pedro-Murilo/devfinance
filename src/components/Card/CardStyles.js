@@ -19,6 +19,7 @@ export const CardContainer = styled.div`
 
   color: #b8b8b8;
   box-shadow: 1px 1px 10px 3px rgb(0, 0, 0, 0.5);
+  transition: 0.2s;
 
   h3 {
     ${h3Styles};
@@ -35,5 +36,13 @@ export const CardContainer = styled.div`
     background-image: linear-gradient(to right, #f8da2e, #cf9c0e);
     color: #252525;
     box-shadow: 1px 1px 5px 3px rgb(248, 218, 46, 0.5);
+  }
+
+  &:hover {
+    transform: translateY(-5%);
+
+    &.total {
+      box-shadow: 1px 1px 5px 10px rgb(248, 218, 46, 0.5);
+    }
   }
 `;

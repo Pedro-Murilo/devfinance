@@ -10,8 +10,9 @@ import {
 import { ScreenOnly } from "../Balance/BalanceStyles";
 
 const Modal = () => {
+
   return (
-    <ModalLayout isActive>
+    <ModalLayout>
       <ModalContainer>
         <FormContainer>
           <ScreenOnly>New Transaction</ScreenOnly>

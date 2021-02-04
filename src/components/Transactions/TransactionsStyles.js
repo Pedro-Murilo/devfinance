@@ -55,18 +55,27 @@ export const DataTable = styled.table`
   }
 `;
 
-export const LinkStyle = styled.a`
+export const LinkStyle = styled.button`
   display: inline-block;
   margin-bottom: 0.8rem;
   font-size: 1.4rem;
-  color: #80da4d;
-  text-shadow: 0 0 2px #80da4d, 0 0 2px #80da4d, 0 0 1px #80da4d,
-    0 0 1px #80da4d;
+
+  color: #252525;
+  background-image: linear-gradient(to right, #b3eb1b, #def320);
+
+  border: none;
+  padding: 0;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  width: 31%;
+  height: 50px;
+  opacity: 0.6;
   transition: 0.2s;
 
   &:hover {
-    color: #67e220;
-    text-shadow: 0 0 2px #67e220, 0 0 2px #67e220, 0 0 1px #67e220,
+    opacity: 1;
+    background: #67e220;
+    box-shadow: 0 0 2px #67e220, 0 0 2px #67e220, 0 0 1px #67e220,
       0 0 1px #67e220;
   }
 `;

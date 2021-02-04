@@ -8,7 +8,7 @@ const TransactionSection = () => {
   return (
     <section className="transaction">
       <ScreenOnly>Transactions</ScreenOnly>
-      <LinkStyle href="#">+ New Transaction</LinkStyle>
+      <LinkStyle>+ New Transaction</LinkStyle>
 
       <DataTable>
         <thead>

@@ -55,7 +55,7 @@ export const DataTable = styled.table`
   }
 `;
 
-export const LinkStyle = styled.button`
+export const ButtonTransaction = styled.button`
   display: inline-block;
   margin-bottom: 0.8rem;
   font-size: 1.4rem;

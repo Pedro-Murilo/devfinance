@@ -1,4 +1,5 @@
-import styled, { css } from "styled-components";
+import { MdClose } from "react-icons/md";
+import styled from "styled-components";
 
 export const ModalLayout = styled.div`
   width: 100%;
@@ -10,13 +11,18 @@ export const ModalLayout = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+`;
 
-  ${({ isActive }) =>
-    !isActive &&
-    css`
-      opacity: 0;
-      visibility: hidden;
-    `}
+export const CloseModalButton = styled(MdClose)`
+  cursor: pointer;
+  position: absolute;
+  top: 7px;
+  right: 15px;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  z-index: 10;
+  color: #e46;
 `;
 
 export const CancelButton = styled.button`

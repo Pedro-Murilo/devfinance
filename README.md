@@ -48,6 +48,9 @@ but I wanted to take it to the next level and I used this project to apply my kn
 <a href="https://yarnpkg.com/">
   <img alt="Yarn" src="https://img.shields.io/badge/yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white" />
 </a>
+<a href="https://lottiefiles.com">
+ <img alt="Lottie Files" src="https://img.shields.io/badge/React_Lottie%20-%23000000.svg?&style=for-the-badge&color=2cc9b2"/>
+</a>
 <a href="https://styled-components.com/">
    <img alt="Styled Components" src="https://img.shields.io/badge/-Styled_Components-db7092?style=for-the-badge&logo=styled-components&logoColor=000" />
 </a>

@@ -24,6 +24,12 @@ a {
   padding-top: 10rem;
 }
 
+.transaction {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+}
+
 @media (min-width: 800px) {
   html {
     font-size: 87.5%;

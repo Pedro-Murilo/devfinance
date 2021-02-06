@@ -20,6 +20,10 @@ a {
   text-decoration: none;
 }
 
+.loading {
+  padding-top: 10rem;
+}
+
 @media (min-width: 800px) {
   html {
     font-size: 87.5%;

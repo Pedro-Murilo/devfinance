@@ -1,6 +1,6 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
-import { ColorNeon, ColorNeonSecondary } from '../Balance/BalanceStyles';
+import { ColorNeon } from '../Balance/BalanceStyles';
 
 export const FooterContainer = styled.footer`
     text-align: center;
@@ -10,14 +10,7 @@ export const FooterContainer = styled.footer`
     font-size: 1.4rem;
 
     p:first-child {
-        font-weight: 100;
-
-        ${({ isActive }) =>
-      !isActive &&
-      css`
+        font-weight: 400;
         color: ${ColorNeon};
-        text-shadow: 0 0 5px ${ColorNeon}, 0 0 5px ${ColorNeon},
-          0 0 10px ${ColorNeon}, 0 0 5px ${ColorNeonSecondary};
-      `}
     }
 `

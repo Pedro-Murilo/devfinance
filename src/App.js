@@ -42,7 +42,7 @@ function App() {
 
     return (
       <div className="loading">
-        <Lottie options={defaultOptions} height={300} width={300} />
+        <Lottie options={defaultOptions} height={250} width={250} />
       </div>
     );
   };

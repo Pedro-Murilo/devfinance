@@ -8,10 +8,13 @@ export const FooterContainer = styled.footer`
     padding: 4.5rem 0 0 0;
     color: #f0f0f0;
     font-size: 1.4rem;
-    opacity: 0.6;
 
     p:first-child {
         font-weight: 400;
         color: ${ColorNeon};
+    }
+
+    p {
+        opacity: 0.5;
     }
 `

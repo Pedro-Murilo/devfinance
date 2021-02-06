@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const DataTable = styled.table`
   width: 100%;
   border-spacing: 0 0.5rem;
-  color: #333;
+  color: #fafafa;
   margin-top: 1.5rem;
 
   th:first-child,
@@ -17,7 +17,7 @@ export const DataTable = styled.table`
   }
 
   th {
-    background: #9b9b9b;
+    background: #3a3a3a;
     font-weight: normal;
     padding: 0.5rem 0.5rem;
     text-align: center;
@@ -44,7 +44,7 @@ export const DataTable = styled.table`
       color: #f88080;
     }
     td {
-      background: #6d6d6d;
+      background: #3a3a3a;
       padding: 0.4rem 0.4rem;
       font-weight: 400;
 
@@ -74,8 +74,16 @@ export const ButtonTransaction = styled.button`
 
   &:hover {
     opacity: 1;
-    background: #67e220;
-    box-shadow: 0 0 2px #67e220, 0 0 2px #67e220, 0 0 1px #67e220,
-      0 0 1px #67e220;
+    background: #6ac911;
+    box-shadow: 0 0 2px #6ac911, 0 0 2px #6ac911, 0 0 1px #6ac911,
+      0 0 1px #6ac911;
+  }
+
+  @media (max-width: 787px) {
+    width: 55%;
+  }
+
+  @media (max-width: 515px) {
+    width: 100%;
   }
 `;

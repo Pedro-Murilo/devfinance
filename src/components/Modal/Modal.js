@@ -1,5 +1,7 @@
 import { useRef, useEffect, useCallback } from "react";
 import { useSpring, animated } from "react-spring";
+import Lottie from 'react-lottie';
+import animationData from '../../lottie/lf30_money-rain.json';
 import {
   ButtonStyles,
   CancelButton,
@@ -11,6 +13,23 @@ import {
   ScreenOnlyLabel,
 } from "./ModalStyles";
 import { ScreenOnly } from "../Balance/BalanceStyles";
+
+const LoadingAnimation = () => {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+
+  return (
+    <div className="loading--rain">
+      <Lottie options={defaultOptions} height={175} width={'100%'} />
+    </div>
+  );
+};
 
 export const Modal = ({ showModal, setShowModal }) => {
   const modalRef = useRef();
@@ -52,7 +71,8 @@ export const Modal = ({ showModal, setShowModal }) => {
               <CloseModalButton
                 aria-label="close"
                 onClick={() => setShowModal((prev) => !prev)}
-              />
+                />
+                {LoadingAnimation()}
               <FormContainer>
                 <ScreenOnly>New Transaction</ScreenOnly>
 

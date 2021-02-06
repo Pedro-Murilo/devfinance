@@ -68,7 +68,7 @@ export const ButtonTransaction = styled.button`
   border-radius: 0.25rem;
   cursor: pointer;
   width: 31%;
-  height: 50px;
+  height: 45px;
   opacity: 0.6;
   transition: 0.2s;
 

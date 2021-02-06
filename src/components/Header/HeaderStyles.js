@@ -4,7 +4,7 @@ import { ColorNeon, ColorNeonSecondary } from '../Balance/BalanceStyles';
 
 export const HeaderContainer = styled.header`
   text-align: center;
-  background: #3a3a3a;
+  background: #222;
   padding: 2rem 0 10rem;
 
   h1 {

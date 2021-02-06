@@ -42,9 +42,6 @@ but I wanted to take it to the next level and I used this project to apply my kn
 <a href="https://reactjs.org/">
   <img alt="React" src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
 </a>
-<a href="https://code.visualstudio.com/">
-   <img alt="Visual Studio Code" src="https://img.shields.io/badge/-Visual_Studio_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-</a>
 <a href="https://www.electronjs.org/">
   <img alt="ElectronJS" src="https://img.shields.io/badge/electron.js-%2343853D.svg?&style=for-the-badge&logo=electron&logoColor=white&color=47848F" />
 </a>
@@ -53,6 +50,9 @@ but I wanted to take it to the next level and I used this project to apply my kn
 </a>
 <a href="https://styled-components.com/">
    <img alt="Styled Components" src="https://img.shields.io/badge/-Styled_Components-db7092?style=for-the-badge&logo=styled-components&logoColor=000" />
+</a>
+<a href="https://www.react-spring.io/">
+  <img alt="React Spring" src="https://img.shields.io/badge/React_Spring-%2343853D.svg?&style=for-the-badge&color=ee6262" />
 </a>
 
 ---

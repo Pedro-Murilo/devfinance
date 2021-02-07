@@ -6,8 +6,6 @@ export const DataTable = styled.table`
   color: #fafafa;
   margin-top: 1.5rem;
   z-index: 1;
-  display: block;
-  overflow-x: auto;
 
   th:first-child,
   td:first-child {

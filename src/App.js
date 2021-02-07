@@ -63,7 +63,7 @@ function App() {
                 + New Transaction
               </ButtonTransaction>
 
-              <DataTable>
+              <DataTable className="table">
                 <thead>
                   <tr>
                     <th>Description</th>

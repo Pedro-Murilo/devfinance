@@ -7,6 +7,7 @@ export const ModalLayout = styled.div`
   background-color: rgba(0, 0, 0, 0.7);
   position: fixed;
   top: 0;
+  z-index: 15;
 
   display: flex;
   align-items: center;
@@ -55,6 +56,7 @@ export const ModalContainer = styled.div`
   padding: 2.4rem;
   border-radius: 0.5rem;
   position: relative;
+  z-index: 15;
 `;
 
 export const ScreenOnlyLabel = styled.label`

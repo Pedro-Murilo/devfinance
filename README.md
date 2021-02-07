@@ -54,6 +54,7 @@ New features added by me
   - Header background animation - (React Lottie)
   - Card draggable - (Framer Motion)
   - TypeWriter Effect
+  - SVG Animations - (Framer Motion)
 
 > Others / SEO
   - Favicon

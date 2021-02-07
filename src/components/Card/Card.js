@@ -8,7 +8,7 @@ const Card = () => (
   <>
       <CardContainer 
         as={motion.div} 
-        drag 
+        drag={'x'} 
         dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }}
         dragElastic={0.2}
       >
@@ -20,7 +20,7 @@ const Card = () => (
       </CardContainer>
       <CardContainer 
         as={motion.div} 
-        drag
+        drag={'x'} 
         dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }}
         dragElastic={0.2}
       >
@@ -32,7 +32,7 @@ const Card = () => (
       </CardContainer>
       <CardContainer 
         as={motion.div} 
-        drag
+        drag={'x'} 
         dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }} 
         dragElastic={0.2}
         className="total">

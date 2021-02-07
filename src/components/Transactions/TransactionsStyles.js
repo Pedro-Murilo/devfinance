@@ -5,7 +5,7 @@ export const DataTable = styled.table`
   border-spacing: 0 0.5rem;
   color: #fafafa;
   margin-top: 1.5rem;
-  z-index: 1;
+  z-index: 2;
 
   th:first-child,
   td:first-child {

@@ -5,6 +5,7 @@ import animationData from "./lottie/13398-money-stack.json";
 import BalanceSection from "./components/Balance/Balance";
 import { ScreenOnly } from "./components/Balance/BalanceStyles";
 import Header from "./components/Header/Header";
+import GithubCorner from "./components/GithubCorner/GithubCorner";
 import { MainContainer } from "./components/Main/MainStyles";
 import { Modal } from "./components/Modal/Modal";
 import minusSvg from "./assets/minus.svg";
@@ -100,6 +101,7 @@ function App() {
                 </tbody>
               </DataTable>
             </section>
+            <GithubCorner projectUrl="https://github.com/Pedro-Murilo/devfinance/" />
           </MainContainer>
           <FooterSection />
           <Modal showModal={showModal} setShowModal={setShowModal} />

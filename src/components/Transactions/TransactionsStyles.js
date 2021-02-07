@@ -74,10 +74,7 @@ export const ButtonTransaction = styled.button`
   transition: 0.2s;
 
   &:hover {
-    opacity: 1;
-    background: #6ac911;
-    box-shadow: 0 0 2px #6ac911, 0 0 2px #6ac911, 0 0 1px #6ac911,
-      0 0 1px #6ac911;
+    opacity: 0.8;
   }
 
   @media (max-width: 800px) {

@@ -16,6 +16,8 @@ export const CardContainer = styled.div`
   padding: 1.5rem 2rem;
   border-radius: 0.7rem;
   margin-bottom: 2rem;
+  cursor: pointer;
+  z-index: 2;
 
   color: #b8b8b8;
   box-shadow: 1px 1px 10px 3px rgb(0, 0, 0, 0.5);
@@ -35,9 +37,5 @@ export const CardContainer = styled.div`
   &.total {
     background-image: linear-gradient(to right, #f8da2e, #cf9c0e);
     color: #252525;
-  }
-
-  &:hover {
-    transform: translateY(-5%);
   }
 `;

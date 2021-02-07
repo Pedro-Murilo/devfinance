@@ -5,6 +5,7 @@ export const DataTable = styled.table`
   border-spacing: 0 0.5rem;
   color: #fafafa;
   margin-top: 1.5rem;
+  z-index: 1;
 
   th:first-child,
   td:first-child {
@@ -79,7 +80,7 @@ export const ButtonTransaction = styled.button`
       0 0 1px #6ac911;
   }
 
-  @media (max-width: 787px) {
+  @media (max-width: 800px) {
     width: 55%;
   }
 

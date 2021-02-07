@@ -11,6 +11,7 @@ export const ModalLayout = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 1000;
 `;
 
 export const CloseModalButton = styled(MdClose)`
@@ -55,7 +56,6 @@ export const ModalContainer = styled.div`
   padding: 2.4rem;
   border-radius: 0.5rem;
   position: relative;
-  z-index: 10;
 `;
 
 export const ScreenOnlyLabel = styled.label`

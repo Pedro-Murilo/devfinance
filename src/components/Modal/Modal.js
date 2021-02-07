@@ -1,3 +1,4 @@
+/* eslint-disable no-dupe-keys */
 import { useRef, useEffect, useCallback } from "react";
 import { useSpring, animated } from "react-spring";
 import {

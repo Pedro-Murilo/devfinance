@@ -44,6 +44,7 @@ but I wanted to take it to the next level and I used this project to apply my kn
 New features added by me
 
 > Main Features
+  - Mini easter egg (try to find him :D)
   - Close button (x) on Modal - (React Icons)
   - Click on screen to close Modal - (Hooks)
   - Click "space" keyboard to close Modal - (Hooks)

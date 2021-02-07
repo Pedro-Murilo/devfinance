@@ -22,7 +22,6 @@
 
 ---
 <div align="center">
-  <h2>Follow the Road</h2> 
   <a href="#-about">About</a> |
   <a href="#-features">Features</a> |
   <a href="#-technologies-and-tools">Technologies and Tools</a> |
@@ -55,19 +54,12 @@ New features added by me
   - Card draggable - (Framer Motion)
   - TypeWriter Effect
   - SVG Animations - (Framer Motion)
+  - GithubCorner
 
 > Others / SEO
   - Favicon
   - Description meta tag
   - Title meta tag
-
-> Technologies features
-  - React Hooks
-  - Styled Components
-  - React Spring
-  - React Lottie
-  - React Icons
-  - Framer Motion
 
 
 ---

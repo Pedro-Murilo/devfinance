@@ -1,6 +1,6 @@
 /* eslint-disable no-dupe-keys */
 import { useRef, useEffect, useCallback } from "react";
-import { useSpring, animated } from "react-spring";
+import { animated } from "react-spring";
 import {
   ButtonStyles,
   CancelButton,
@@ -17,13 +17,6 @@ import { ScreenOnly } from "../Balance/BalanceStyles";
 export const Modal = ({ showModal, setShowModal }) => {
   const modalRef = useRef();
 
-  const animation = useSpring({
-    config: {
-      duration: 250,
-    },
-    opacity: showModal ? 1 : 0,
-    transform: showModal ? `translateY(0%)` : `translateY(100%)`,
-  });
 
   const closeModal = (e) => {
     if (modalRef.current === e.target) {
@@ -49,7 +42,7 @@ export const Modal = ({ showModal, setShowModal }) => {
     <>
       {showModal ? (
         <ModalLayout ref={modalRef} onClick={closeModal}>
-          <animated.div style={animation}>
+          <animated.div>
             <ModalContainer showModal={showModal}>
               <CloseModalButton
                 aria-label="close"

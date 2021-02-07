@@ -17,7 +17,6 @@ export const CardContainer = styled.div`
   border-radius: 0.7rem;
   margin-bottom: 2rem;
   cursor: pointer;
-  z-index: 2;
 
   color: #b8b8b8;
   box-shadow: 1px 1px 10px 3px rgb(0, 0, 0, 0.5);

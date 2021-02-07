@@ -7,7 +7,7 @@ export const ModalLayout = styled.div`
   background-color: rgba(0, 0, 0, 0.7);
   position: fixed;
   top: 0;
-  z-index: 15;
+  z-index: 99999;
 
   display: flex;
   align-items: center;

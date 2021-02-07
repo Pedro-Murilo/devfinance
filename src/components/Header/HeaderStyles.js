@@ -9,7 +9,7 @@ export const HeaderContainer = styled.header`
   position: relative;
   z-index: -1;
 
-  h1 {
+  .type {
     font-weight: 100;
     font-size: 3.5rem;
     color: #fff;

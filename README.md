@@ -53,6 +53,7 @@ New features added by me
   - Loading screen animation - (React Lottie)
   - Header background animation - (React Lottie)
   - Card draggable - (Framer Motion)
+  - TypeWriter Effect
 
 > Others / SEO
   - Favicon

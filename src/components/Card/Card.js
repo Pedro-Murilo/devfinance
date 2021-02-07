@@ -10,7 +10,7 @@ const Card = () => (
         as={motion.div} 
         drag={'x'} 
         dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }}
-        dragElastic={0.2}
+        dragElastic={0.7}
       >
         <h3>
           <span>Income</span>
@@ -22,7 +22,7 @@ const Card = () => (
         as={motion.div} 
         drag={'x'} 
         dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }}
-        dragElastic={0.2}
+        dragElastic={0.7}
       >
         <h3>
           <span>Expense</span>
@@ -34,7 +34,7 @@ const Card = () => (
         as={motion.div} 
         drag={'x'} 
         dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }} 
-        dragElastic={0.2}
+        dragElastic={0.7}
         className="total">
         <h3>
           <span>Total</span>

@@ -20,10 +20,12 @@
   </a>
 </p>
 
+<<<<<<< HEAD
 ---
+=======
+>>>>>>> f35a7cffb410b5bbd5531da288e1366b4d14ad86
 
 <div align="center">
-  <h2>Follow the Road</h2> 
   <a href="#-about">About</a> |
   <a href="#-features">Features</a> |
   <a href="#-technologies-and-tools">Technologies and Tools</a> |
@@ -54,11 +56,20 @@ New features added by me
 - Click "space" keyboard to close Modal - (Hooks)
 
 > Animations / Styles
+<<<<<<< HEAD
 
 - Loading screen animation - (React Lottie)
 - Header background animation - (React Lottie)
 - Card draggable - (Framer Motion)
 - TypeWriter Effect
+=======
+  - Loading screen animation - (React Lottie)
+  - Header background animation - (React Lottie)
+  - Card draggable - (Framer Motion)
+  - TypeWriter Effect
+  - SVG Animations - (Framer Motion)
+  - GithubCorner
+>>>>>>> f35a7cffb410b5bbd5531da288e1366b4d14ad86
 
 > Others / SEO
 
@@ -66,6 +77,7 @@ New features added by me
 - Description meta tag
 - Title meta tag
 
+<<<<<<< HEAD
 > Technologies features
 
 - React Hooks
@@ -74,6 +86,8 @@ New features added by me
 - React Lottie
 - React Icons
 - Framer Motion
+=======
+>>>>>>> f35a7cffb410b5bbd5531da288e1366b4d14ad86
 
 ---
 

@@ -1,5 +1,5 @@
 <h1 align="center"><strong>dev💲finance</strong></h1> 
-<h2 align="center"><strong>An application made to manage your finance!</strong></h2>
+<p align="center"><strong>An application made to manage your finance!</strong></p>
 
 
 ---
@@ -24,6 +24,7 @@
 <div align="center">
   <h2>Follow the Road</h2> 
   <a href="#-about">About</a> |
+  <a href="#-features">Features</a> |
   <a href="#-technologies-and-tools">Technologies and Tools</a> |
   <a href="#-how-to-run-this-project">How to run this project</a> |
   <a href="#-contributing">Contributing</a> |
@@ -37,13 +38,40 @@
 This application was built in the Rocketseat event, and this project consists of you managing your finances. In the event was used Javascript, HTML and CSS, 
 but I wanted to take it to the next level and I used this project to apply my knowledge in ReactJS!
 
+
+---
+### 💥 Features
+New features added by me
+
+> Main Features
+  - Mini easter egg (try to find him :D)
+  - Close button (x) on Modal - (React Icons)
+  - Click on screen to close Modal - (Hooks)
+  - Click "space" keyboard to close Modal - (Hooks)
+
+> Animations / Styles
+  - Loading screen animation - (React Lottie)
+  - Header background animation - (React Lottie)
+  - Card draggable - (Framer Motion)
+
+> Others / SEO
+  - Favicon
+  - Description meta tag
+  - Title meta tag
+
+> Technologies features
+  - React Hooks
+  - Styled Components
+  - React Spring
+  - React Lottie
+  - React Icons
+  - Framer Motion
+
+
 ---
 ### 🚀 Technologies and Tools
 <a href="https://reactjs.org/">
   <img alt="React" src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
-</a>
-<a href="https://www.electronjs.org/">
-  <img alt="ElectronJS" src="https://img.shields.io/badge/electron.js-%2343853D.svg?&style=for-the-badge&logo=electron&logoColor=white&color=47848F" />
 </a>
 <a href="https://yarnpkg.com/">
   <img alt="Yarn" src="https://img.shields.io/badge/yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white" />

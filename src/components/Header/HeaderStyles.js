@@ -23,7 +23,7 @@ export const HeaderContainer = styled.header`
       `}
   }
 
-  @media (min-width: 440px) {
+  @media (max-width: 440px) {
     .type {
       padding-top: 1.5rem;
     }

@@ -22,6 +22,12 @@ export const HeaderContainer = styled.header`
           0 0 10px ${ColorNeon}, 0 0 5px ${ColorNeonSecondary};
       `}
   }
+
+  @media (min-width: 440px) {
+    .type {
+      padding-top: 1.5rem;
+    }
+  }
 `;
 
 export const EasterEgg = styled.p`

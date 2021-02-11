@@ -19,6 +19,7 @@ export const Modal = ({ showModal, setShowModal }) => {
 
   const [text, setText] = useState("");
   const [amount, setAmount] = useState(0);
+  const [date, setDate] = useState('');
 
   const { addTransaction } = useContext(GlobalContext);
 
@@ -28,6 +29,7 @@ export const Modal = ({ showModal, setShowModal }) => {
       id: Math.floor(Math.random() * 100),
       text,
       amount: +amount,
+      date,
     };
     addTransaction(newTransaction);
   };
@@ -95,7 +97,13 @@ export const Modal = ({ showModal, setShowModal }) => {
 
                   <InputContainer>
                     <ScreenOnlyLabel htmlFor="date">Data</ScreenOnlyLabel>
-                    <input type="date" id="date" name="date" />
+                    <input 
+                      type="date" 
+                      id="date" 
+                      name="date"
+                      value={date}
+                      onChange={(e) => setDate(e.target.value)}
+                    />
                   </InputContainer>
 
                   <InputContainer className="actions">

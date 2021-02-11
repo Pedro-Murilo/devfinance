@@ -5,17 +5,24 @@ import animationData from "./lottie/13398-money-stack.json";
 import { GlobalStyle } from "./globalStyle";
 import { GlobalProvider } from "./context/GlobalState";
 
-import Header from './components/Header/Header';
+import Header from "./components/Header/Header";
 import TransactionsSection from "./components/Transactions/Transactions";
 import BalanceSection from "./components/Balance/Balance";
-import {MainContainer} from './components/Main/MainStyles';
-import GithubCorner from './components/GithubCorner/GithubCorner';
-import FooterSection from './components/Footer/Footer';
+import { MainContainer } from "./components/Main/MainStyles";
+import GithubCorner from "./components/GithubCorner/GithubCorner";
+import FooterSection from "./components/Footer/Footer";
+import { ButtonTransaction } from './components/Transactions/TransactionsStyles';
+import Modal from "./components/Modal/Modal";
+
 
 function App() {
-
   const [loading, setLoading] = useState(false);
 
+  const [showModal, setShowModal] = useState(false);
+
+  const openModal = () => {
+    setShowModal((prev) => !prev);
+  };
 
   useEffect(() => {
     setLoading(true);
@@ -43,20 +50,24 @@ function App() {
 
   return (
     <>
-    {loading ? (
+      {loading ? (
         LoadingAnimation()
       ) : (
-      <GlobalProvider>
-        <Header />
-        <MainContainer>
-          <BalanceSection />
-          <GithubCorner projectUrl="https://github.com/Pedro-Murilo/devfinance/" />
-          <TransactionsSection />
-        </MainContainer>
-        <FooterSection />
-        <GlobalStyle />
-      </GlobalProvider>
+        <GlobalProvider>
+          <Header />
+          <MainContainer>
+            <BalanceSection />
+              <ButtonTransaction onClick={openModal}>
+                + New Transaction
+              </ButtonTransaction>
+              <TransactionsSection />
+            <GithubCorner projectUrl="https://github.com/Pedro-Murilo/devfinance/" />
+          </MainContainer>
+          <FooterSection />
+          <Modal showModal={showModal} setShowModal={setShowModal} />
+        </GlobalProvider>
       )}
+      <GlobalStyle />
     </>
   );
 }

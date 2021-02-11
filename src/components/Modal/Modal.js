@@ -55,7 +55,7 @@ export const Modal = ({ showModal, setShowModal }) => {
   return (
     <>
       {showModal ? (
-        <ModalLayout className="border" ref={modalRef} onClick={closeModal}>
+        <ModalLayout ref={modalRef} onClick={closeModal}>
           <animated.div>
             <ModalContainer showModal={showModal}>
               <CloseModalButton

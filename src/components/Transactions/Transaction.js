@@ -9,7 +9,7 @@ export const Transactions = ({ transaction }) => {
   const sign = transaction.amount < 0 ? "-" : "+";
 
   return (
-    <>
+    <tr>
       <td className="description">{transaction.text} </td>
       <td className="expense">
         {sign} ${Math.abs(transaction.amount)}
@@ -22,6 +22,6 @@ export const Transactions = ({ transaction }) => {
           onClick={() => deleteTransaction(transaction.id)}
         />
       </td>
-    </>
+    </tr>
   );
 };

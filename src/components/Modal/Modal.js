@@ -1,5 +1,6 @@
 /* eslint-disable no-dupe-keys */
-import { useRef, useEffect, useCallback } from "react";
+import { useRef, useEffect, useCallback, useState, useContext } from "react";
+import { GlobalContext } from "../../context/GlobalState";
 import { animated } from "react-spring";
 import {
   ButtonStyles,
@@ -13,10 +14,23 @@ import {
 } from "./ModalStyles";
 import { ScreenOnly } from "../Balance/BalanceStyles";
 
-
 export const Modal = ({ showModal, setShowModal }) => {
   const modalRef = useRef();
 
+  const [text, setText] = useState("");
+  const [amount, setAmount] = useState(0);
+
+  const { addTransaction } = useContext(GlobalContext);
+
+  const onSubmit = (e) => {
+    e.preventDefault();
+    const newTransaction = {
+      id: Math.floor(Math.random() * 100),
+      text,
+      amount: +amount,
+    };
+    addTransaction(newTransaction);
+  };
 
   const closeModal = (e) => {
     if (modalRef.current === e.target) {
@@ -41,17 +55,17 @@ export const Modal = ({ showModal, setShowModal }) => {
   return (
     <>
       {showModal ? (
-        <ModalLayout ref={modalRef} onClick={closeModal}>
+        <ModalLayout className="border" ref={modalRef} onClick={closeModal}>
           <animated.div>
             <ModalContainer showModal={showModal}>
               <CloseModalButton
                 aria-label="close"
                 onClick={() => setShowModal((prev) => !prev)}
-                />
+              />
               <FormContainer>
                 <ScreenOnly>New Transaction</ScreenOnly>
 
-                <form action="">
+                <form onSubmit={onSubmit}>
                   <InputContainer>
                     <ScreenOnlyLabel htmlFor="description">
                       Description
@@ -61,6 +75,8 @@ export const Modal = ({ showModal, setShowModal }) => {
                       id="description"
                       name="description"
                       placeholder="Description"
+                      value={text} 
+                      onChange={(e) => setText(e.target.value)} 
                     />
                   </InputContainer>
                   <InputContainer>
@@ -70,6 +86,7 @@ export const Modal = ({ showModal, setShowModal }) => {
                       id="amount"
                       name="amount"
                       placeholder="0,00"
+                      onChange={(e) => setAmount(e.target.value)}
                     />
                     <small>
                       Use - (negative) for spend and , (comma) to decimal number
@@ -100,3 +117,5 @@ export const Modal = ({ showModal, setShowModal }) => {
     </>
   );
 };
+
+export default Modal;

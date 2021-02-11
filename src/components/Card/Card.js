@@ -1,7 +1,25 @@
+import { useContext } from 'react';
+import { GlobalContext } from '../../context/GlobalState';
 import { CardContainer } from "./CardStyles";
 import { motion } from "framer-motion";
 
 const Card = () => {
+
+  const { transactions } = useContext(GlobalContext);
+
+  const amounts = transactions.map(transaction => transaction.amount);
+  const total = amounts.reduce((acc, item) => (acc += item), 0).toFixed(2);
+
+  const income = amounts
+    .filter((item) => item > 0)
+    .reduce((acc, item) => (acc += item), 0)
+    .toFixed(2);
+
+  const expense = (
+    amounts.filter((item) => item < 0).reduce((acc, item) => (acc += item), 0) *
+    -1
+  ).toFixed(2);
+
   const svgVariants = {
     hidden: { rotate: -180 },
     visible: {
@@ -73,7 +91,7 @@ const Card = () => {
             </motion.svg>
           </div>
         </h3>
-        <p>R$ 5.000,00</p>
+        <p>${income}</p>
       </CardContainer>
       <CardContainer
         as={motion.div}
@@ -121,7 +139,7 @@ const Card = () => {
             </motion.svg>
           </div>
         </h3>
-        <p>R$ 2.000,00</p>
+        <p>${expense}</p>
       </CardContainer>
       <CardContainer
         as={motion.div}
@@ -162,10 +180,11 @@ const Card = () => {
             </motion.svg>
           </div>
         </h3>
-        <p>R$ 3.000,00</p>
+        <p>${total}</p>
       </CardContainer>
     </>
   );
 };
+
 
 export default Card;

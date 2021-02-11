@@ -14,6 +14,7 @@ export const GlobalStyle = createGlobalStyle`
 body {
   font-family: "Poppins", sans-serif;
   background: #1a1a1a;
+  color: #fff;
 }
 
 a {
@@ -24,10 +25,9 @@ a {
   padding-top: 10rem;
 }
 
-.transaction {
-  display: block;
-  width: 100%;
-  overflow-x: auto;
+
+.border {
+  border: 1px solid red;
 }
 
 @media (min-width: 800px) {

@@ -25,6 +25,10 @@ a {
   padding-top: 10rem;
 }
 
+.transaction {
+  display: block;
+  overflow-x: auto;
+}
 
 .border {
   border: 1px solid red;

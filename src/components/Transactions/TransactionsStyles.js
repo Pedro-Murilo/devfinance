@@ -7,6 +7,10 @@ export const DataTable = styled.table`
   margin-top: 1.5rem;
   z-index: 2;
 
+  thead {
+    max-width: 500px;
+  }
+
   th:first-child,
   td:first-child {
     border-radius: 0.5rem 0 0 0.5rem;
@@ -15,6 +19,22 @@ export const DataTable = styled.table`
   th:last-child,
   td:last-child {
     border-radius: 0 0.5rem 0.5rem 0;
+  }
+
+  th:last-child {
+    width: 100px;
+  }
+
+  th:first-child {
+    width: 250px;
+  }
+
+  th:nth-child(2) {
+    width: 200px;
+  }
+
+  th:nth-child(3) {
+    width: 200px;
   }
 
   th {

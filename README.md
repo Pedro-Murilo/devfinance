@@ -20,17 +20,25 @@
 
 
 <div align="center">
+  <a href="#-final-project">Final Project</a> |
   <a href="#-about">About</a> |
   <a href="#-features">Features</a> |
   <a href="#-technologies-and-tools">Technologies and Tools</a> |
-  <a href="#-how-to-run-this-project">How to run this project</a> |
+  <a href="#-how-to-run">How to run</a> |
   <a href="#-contributing">Contributing</a> |
   <a href="#-license">License</a> |
   <a href="#-credits">Credits</a>
 </div>
 
+
 ---
-## 📋 About
+### ✨ Final Project
+<p align="center">
+  <img src="https://github.com/Pedro-Murilo/devfinance/blob/main/.github/devfinance.gif" alt="Devfinance gif" />
+</p>
+
+---
+### 📋 About
 This application was built in the Rocketseat event, and this project consists of you managing your finances. In the event was used Javascript, HTML and CSS,
 but I wanted to take it to the next level and I used this project to apply my knowledge in ReactJS!
 
@@ -54,8 +62,9 @@ New features added by me
 
 > Others / SEO
 - Favicon
-- Description meta tag
-- Title meta tag
+- Description
+- Image
+- Title
 
 
 ---
@@ -77,7 +86,7 @@ New features added by me
 </a>
 
 ---
-### 📲 How to run this project:
+### 📲 How to run
 > Step 1: clone this repository typing in your terminal `git@github.com:Pedro-Murilo/devfinance.git`
 
 > Step 2: open your terminal and type `yarn` and wait install all dependencies

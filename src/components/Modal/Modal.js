@@ -23,6 +23,10 @@ export const Modal = ({ showModal, setShowModal }) => {
 
   const { addTransaction } = useContext(GlobalContext);
 
+  const openModal = () => {
+    setShowModal((prev) => !prev);
+  };
+
   const onSubmit = (e) => {
     e.preventDefault();
     const newTransaction = {
@@ -32,6 +36,7 @@ export const Modal = ({ showModal, setShowModal }) => {
       date,
     };
     addTransaction(newTransaction);
+    openModal();
   };
 
   const closeModal = (e) => {
@@ -77,7 +82,6 @@ export const Modal = ({ showModal, setShowModal }) => {
                       id="description"
                       name="description"
                       placeholder="Description"
-                      value={text} 
                       onChange={(e) => setText(e.target.value)} 
                     />
                   </InputContainer>
@@ -101,7 +105,6 @@ export const Modal = ({ showModal, setShowModal }) => {
                       type="date" 
                       id="date" 
                       name="date"
-                      value={date}
                       onChange={(e) => setDate(e.target.value)}
                     />
                   </InputContainer>
@@ -114,7 +117,7 @@ export const Modal = ({ showModal, setShowModal }) => {
                     >
                       Cancel
                     </CancelButton>
-                    <ButtonStyles>Save</ButtonStyles>
+                    <ButtonStyles type="submit" onSubmit={openModal}>Save</ButtonStyles>
                   </InputContainer>
                 </form>
               </FormContainer>

@@ -33,6 +33,7 @@
 
 ---
 ### ✨ Final Project
+> Netlify: https://devfinance-pedro.netlify.app/
 <p align="center">
   <img src="https://github.com/Pedro-Murilo/devfinance/blob/main/.github/devfinance.gif" alt="Devfinance gif" />
 </p>

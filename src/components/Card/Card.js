@@ -7,6 +7,20 @@ const Card = () => {
 
   const { transactions } = useContext(GlobalContext);
 
+  const moneyFormatter = (value) => {
+    const sign = Number(value) < 0 ? '- ' : '';
+
+    value = String(value).replace(/\D/g, '');
+    value = Number(value) / 100;
+
+    value = value.toLocaleString('pt-BR', {
+      style: 'currency',
+      currency: 'BRL',
+    });
+
+    return sign + value;
+  };
+
   const amounts = transactions.map(transaction => transaction.amount);
   const total = amounts.reduce((acc, item) => (acc += item), 0).toFixed(2);
 
@@ -91,7 +105,7 @@ const Card = () => {
             </motion.svg>
           </div>
         </h3>
-        <p>${income}</p>
+        <p>{moneyFormatter(income)}</p>
       </CardContainer>
       <CardContainer
         as={motion.div}
@@ -139,7 +153,7 @@ const Card = () => {
             </motion.svg>
           </div>
         </h3>
-        <p>${expense}</p>
+        <p>{moneyFormatter(expense)}</p>
       </CardContainer>
       <CardContainer
         as={motion.div}
@@ -180,7 +194,7 @@ const Card = () => {
             </motion.svg>
           </div>
         </h3>
-        <p>${total}</p>
+        <p>{moneyFormatter(total)}</p>
       </CardContainer>
     </>
   );

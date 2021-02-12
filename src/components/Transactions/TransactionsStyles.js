@@ -7,8 +7,9 @@ export const DataTable = styled.table`
   margin-top: 1.5rem;
   z-index: 2;
 
-  thead {
-    max-width: 500px;
+  thead th {
+    padding: 1rem 2rem;
+    text-align: center;
   }
 
   th:first-child,
@@ -19,22 +20,6 @@ export const DataTable = styled.table`
   th:last-child,
   td:last-child {
     border-radius: 0 0.5rem 0.5rem 0;
-  }
-
-  th:last-child {
-    width: 100px;
-  }
-
-  th:first-child {
-    width: 250px;
-  }
-
-  th:nth-child(2) {
-    width: 200px;
-  }
-
-  th:nth-child(3) {
-    width: 200px;
   }
 
   th {
@@ -66,7 +51,7 @@ export const DataTable = styled.table`
     }
     td {
       background: #3a3a3a;
-      padding: 0.4rem 0.4rem;
+      padding: 1rem 2rem;
       font-weight: 400;
 
       img {

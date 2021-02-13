@@ -82,6 +82,9 @@ New features added by me
 <a href="https://styled-components.com/">
    <img alt="Styled Components" src="https://img.shields.io/badge/-Styled_Components-db7092?style=for-the-badge&logo=styled-components&logoColor=000" />
 </a>
+<a href="https://www.framer.com/motion/">
+ <img alt="Framer Motion" src="https://img.shields.io/badge/Framer_Motion%20-%23000000.svg?&style=for-the-badge&color=c41277"/>
+</a>
 <a href="https://www.react-spring.io/">
   <img alt="React Spring" src="https://img.shields.io/badge/React_Spring-%2343853D.svg?&style=for-the-badge&color=ee6262" />
 </a>
